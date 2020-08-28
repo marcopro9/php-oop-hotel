@@ -1,7 +1,8 @@
 <?php
 require_once( __DIR__ . '/stanze.php');
 
-$stanze = [
+$stanze =
+[
   [
     'room_number' => '100',
     'floor' => '1',
@@ -23,88 +24,88 @@ $stanze = [
     'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '103',
-  'floor' => '1','beds' => '1',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '103',
+    'floor' => '1','beds' => '1',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '104',
-  'floor' => '1',
-  'beds' => '2',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '104',
+    'floor' => '1',
+    'beds' => '2',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '105',
-  'floor' => '1',
-  'beds' => '2',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '105',
+    'floor' => '1',
+    'beds' => '2',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '201',
-  'floor' => '2',
-  'beds' => '2',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '201',
+    'floor' => '2',
+    'beds' => '2',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '202',
-  'floor' => '2',
-  'beds' => '3',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '202',
+    'floor' => '2',
+    'beds' => '3',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '203',
-  'floor' => '2',
-  'beds' => '3',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '203',
+    'floor' => '2',
+    'beds' => '3',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '204',
-  'floor' => '2',
-  'beds' => '1',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '204',
+    'floor' => '2',
+    'beds' => '1',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '205',
-  'floor' => '2',
-  'beds' => '2',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '205',
+    'floor' => '2',
+    'beds' => '2',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '301',
-  'floor' => '3',
-  'beds' => '3',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '301',
+    'floor' => '3',
+    'beds' => '3',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '302',
-  'floor' => '3',
-  'beds' => '3',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '302',
+    'floor' => '3',
+    'beds' => '3',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '303',
-  'floor' => '3',
-  'beds' => '2',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
+    'room_number' => '303',
+    'floor' => '3',
+    'beds' => '2',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
   ],
   [
-  'room_number' => '304',
-  'floor' => '3',
-  'beds' => '1',
-  'created_at' => '2018-05-28 13:33:11',
-  'updated_at' => '2018-05-28 13:33:11'
-],
+    'room_number' => '304',
+    'floor' => '3',
+    'beds' => '1',
+    'created_at' => '2018-05-28 13:33:11',
+    'updated_at' => '2018-05-28 13:33:11'
+  ],
 ];
 
 
